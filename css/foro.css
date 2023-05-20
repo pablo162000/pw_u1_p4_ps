@@ -15,7 +15,7 @@ tiene un elemento li*/
 
 }
 
-.cabecera h1{
+.cabecera h1 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -31,7 +31,12 @@ tiene un elemento li*/
 
 }
 
-header, section, footer, aside, nav, article{
+header,
+section,
+footer,
+aside,
+nav,
+article {
     display: block;
 }
 
@@ -44,8 +49,9 @@ body {
     width: 900px;
     border: 1px double black;
     margin: 15px auto;
-   
+
 }
+
 .section {
     margin: 20px;
     width: 600px;
@@ -59,6 +65,35 @@ article {
     padding: 20px;
     margin-bottom: 25px;
     background: cadetblue;
+}
+
+.referencias {
+    /*borde*/
+    border: 1px solid black;
+    width: 200px;
+    /* flota de los elementos que estan a su izquierda, 
+    es decir todos los elementos se ubican a la izquierda*/
+    float: left;
+    /*para que baje*/
+    margin-top: 200px;
+    /*va a la derecha*/
+    margin-left: 20px;
+
+}
+
+article footer {
+    /*el texto se coloca a la derecha*/
+    text-align: right;
+}
+
+.pie {
+    /*manda al elemento al pie de pagina*/
+    clear: both;
+}
+
+img {
+    height: 200px;
+    width: 130px;
 }
 
 /*
