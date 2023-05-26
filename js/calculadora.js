@@ -45,6 +45,8 @@ function convertir(idCampo) {
 
 function eliminarElemento() {
     document.getElementById('idEliminar').remove;
+    console.log(document.getElementById('idEliminar'))
+    console.log('Test')
 
 }
 
