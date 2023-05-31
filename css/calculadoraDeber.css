@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-image: url('../img/numerospn.png');
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    ;
+
+    margin-bottom: 5px;
+
+    width: 200px;
+    height: 200px;
+
+
+}
+
+label {
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    border: 3px solid #000;
+    background: rgb(248, 250, 251);
+    font-size: 25px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid #000;
+
+}
+
+button:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: blue;
+
+}
+
+section {
+
+    background-color: blue;
+    margin: auto;
+    border: 5px solid #000;
+    padding-right: auto;
+    padding-left: auto;
+    width: 300px;
+
+}
+
+
+
+header,
+section,
+footer,
+aside,
+nav,
+article {
+    display: block;
+}
